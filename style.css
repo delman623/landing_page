@@ -13,29 +13,55 @@ body{
 
 .header_container{
     display: flex;
-    background-color: blue;
+    background-color: #1f2937;
     padding: 10px 100px 50px 100px;
     flex-wrap: wrap;
     width: 100%;
 }
 
+.upper, .lower{
+    display: flex;
+    width: 100%;
+}
+
+
 .header_1{
-    background-color: aquamarine;
-    margin: 0;
+    margin-left: 10px;
     flex-grow: 1;
 }
 
+.header_1 h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
 .header_2, .header_3, .header_4, .header_5, .header_6{
-    background-color: blueviolet;
     margin: 10px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header_5{
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 10px;
     margin: 0;
+    text-align: left;
+}
+
+.header_5 h6{
+    margin: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.header_5 p{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 10%;
 }
 
 .header_6{
@@ -43,18 +69,31 @@ body{
     background-color: gray;
 }
 
+.Sign_up{
+    width: 15%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: bold;
+    text-align: center;
+}
+
 .container_2{
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
+    height: 25%;
+    padding-bottom :10%;
 }
 
 .container_2_header{
     padding: 0 30%;
     width: 100%;
     text-align: center;
+    font-size: 48px;
+    margin: 50px 0 70px 0;
 }
 
 .image_card{
@@ -82,4 +121,61 @@ img{
     text-align: center;
     padding: 50px;
     width: 100%;
+}
+
+.container_4{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inner_4{
+    background-color: #3882F6;
+    margin: 10%;
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.con_4_text{
+    margin: 0;
+    padding: 0;
+}
+
+.con_4_header{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+
+.con_4_subtext{
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+.sign_up_2nd{
+    width: 10%;
+    padding: 1% 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    border-style: solid 2px;
+    border: #F9FAF8;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer_container{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
 }
